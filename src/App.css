@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -15,12 +16,12 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+ 
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(7px + 2vmin);
   color: white;
 }
 
@@ -35,4 +36,131 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.card
+{
+  background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(20,38,76,1) 40%, rgba(49,102,122,0.9353641114648985) 73%, rgba(48,141,177,0.4451680330335259) 100%);
+  width: 35%;
+  height: 20rem;
+  margin: 3rem auto;
+  padding: 10px;
+  border-radius: 14px;
+
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+header {
+  background-color: #060b17;
+
+}
+header h2 {
+  color: #fff;
+  font-family: "McLaren", cursive;
+  font-weight: 150;
+  margin-right: 3.5rem;
+}
+.nav-link
+{
+  color:#4e628fd9;
+}
+body
+{
+  background-color: #101e3c;
+ color: rgba(255, 255, 255, 0.882);
+ font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+}
+.wimage
+{
+  width:6rem;
+  height:6rem;
+  display: inline;
+  position: relative;
+  left: 12rem;
+  bottom:7rem
+
+}
+.nav
+{
+  margin: auto -12px;
+  padding: 10px 20px;
+
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+
+}
+.nav-item
+{
+  margin-right: 1rem;
+}
+.cardcontent
+{
+margin-top: 10px;
+  padding: 20px;
+}
+.cardcontentdata
+{
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 10px;
+}
+.search
+{
+  text-align: center;
+  margin: 0 auto;
+  padding: 5px;
+  
+}
+.input
+{
+  padding: 4px;
+  margin: 7px;
+  border-radius: 7px;
+ color: #101e3c;
+}
+
+
+.date{
+
+  margin-top: 1rem;
+ 
+}
+.todaydate
+{
+  font-size: medium;
+
+  width:150px;
+  position: absolute;
+  bottom: 10px;
+  right: 15px;
+}
+.day
+{
+  position: absolute;
+  bottom:10px
+  
+}
+
+.logo{
+ position: absolute;
+ top: 10px;
+ left: 7rem;
+
+}
+
+.foot
+{
+  background-color:#192e5ab9;
+color: rgb(130, 143, 157);
+
+  padding: 15px 0 4px;
+  text-align: center;
+}
+
+.searchlogo
+{
+  width:30px;
+  position: absolute;
+  right:120px;
+  top:4.2rem;
 }

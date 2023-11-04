@@ -1,25 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import Card from "./card"
+import Content from './content';
+import Header from './Header';
+import Footer from './footer';
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    
+    <div >
+<Header/>
+ <Content/>
+ <Footer/>
     </div>
   );
 }
 
 export default App;
+
+//88d66d39d9aa3f0b54c829696b393edb
+
+//http://api.openweathermap.org/data/2.5/forecast?id=524901&appid={API key}

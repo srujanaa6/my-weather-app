@@ -26,7 +26,7 @@ function Content()
         const fetchApi =async()=>
         {
             
-            let url=`https://api.openweathermap.org/data/2.5/weather?q=${search}&units=metric&appid=88d66d39d9aa3f0b54c829696b393edb`
+            let url=`https://api.openweathermap.org/data/2.5/weather?q=${search}&units=metric&appid="token"`
            let response =await fetch(url)
             
             let resjson= await response.json();

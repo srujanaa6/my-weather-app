@@ -21,6 +21,3 @@ function App() {
 
 export default App;
 
-//88d66d39d9aa3f0b54c829696b393edb
-
-//http://api.openweathermap.org/data/2.5/forecast?id=524901&appid={API key}
